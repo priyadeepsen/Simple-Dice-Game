@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/style.css" />
+  <title>Dice Game with Sourav's Hair</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <div class="game-container">
+    <div class="score">
+      <p>0</p>
+    </div>
+    <div class="total-score">
+      <h1>Total Score</h1>
+    </div>
+    <div class="number-selection">
+      <h2>Select Number</h2>
+      <button class="button-spacing">1</button>
+      <button class="button-spacing">2</button>
+      <button class="button-spacing">3</button>
+      <button class="button-spacing">4</button>
+      <button class="button-spacing">5</button>
+      <button class="button-spacing">6</button>
+    </div>
+    <div class="dice">
+      <img alt="Dice face" height="80" src="/assets/one.png" width="80" />
+    </div>
+    <div class="buttons">
+      <button class="reset">Reset Score</button>
+      <button class="rules">Show Rules</button>
+      <div class="rules-container">
+      <h2>Game Rules</h2>
+      <ul>
+        <li>Select a number between 1 and 6.</li>
+        <li>Click the dice to roll.</li>
+        <li>If the rolled number matches your selected number, your score increases by the rolled number.</li>
+        <li>If the rolled number does not match your selected number, you will loose 2 points.</li>
+        <li>The game continues until you reset your score or close the game.</li>
+      </ul>
+      <button class="close-rules">Close</button>
+    </div>
+  </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

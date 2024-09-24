@@ -1,0 +1,142 @@
+body {
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: whitesmoke;
+}
+
+.game-container {
+    background-color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
+
+.button-spacing {
+    margin: 4px;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(77, 235, 187);
+    cursor: pointer;
+}
+
+.button-spacing:hover {
+    background-color: rgb(49, 189, 142);
+    transition-duration: 200ms;
+}
+
+.score {
+    font-size: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.number-selection {
+    align-items: center;
+    display: inline-block;
+}
+
+.total-score {
+    margin-bottom: 2px;
+}
+
+.dice {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dice img {
+    border: 3px solid rgb(115, 112, 112);
+}
+
+.buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(71, 175, 158);
+    color: #fff;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    .game-container {
+        padding: 10px;
+    }
+
+    .button-spacing {
+        margin: 2px;
+    }
+
+    .buttons button {
+        padding: 5px 10px;
+    }
+
+    .dice img {
+        border: 2px solid rgb(115, 112, 112);
+    }
+}
+
+@media (max-width: 480px) {
+    .game-container {
+        padding: 5px;
+    }
+
+    .button-spacing {
+        margin: 1px;
+    }
+
+    .buttons button {
+        padding: 3px 5px;
+    }
+}
+
+.reset, .rules {
+    font-size: 16px;
+}
+
+.rules-container {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .rules-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .rules-container li {
+    margin-bottom: 10px;
+  }
+  
+  .rules-container .close-rules {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .rules-container .close-rules:hover {
+    background-color: #3e8e41;
+  }
+
+  .hidden {
+    display: none;
+  }
