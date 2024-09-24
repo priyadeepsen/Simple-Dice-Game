@@ -8,4 +8,4 @@ A fun dice game implemented with HTML, CSS, and JavaScript.
 - ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)
 
 ## 🚀 Live Demo
-[Click here to play the game!](#) 
+[Click here to play the game!](https://simple-dice-game.onrender.com) 
